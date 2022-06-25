@@ -17,7 +17,7 @@
             <p class="login__descripcion">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
         </div>
         <div class="login__right">
-            <form class="form" method="post">
+            <form id="formulario" class="form" method="post">
                 <input type="text" name="usuario" class="form__input" placeholder="Correo electrónico o número de teléfono">
                 <input type="password" name="contraseña" class="form__input" placeholder="Contraseña">
                 <button type="submit" name="enviar" class="form__submit">
@@ -30,13 +30,9 @@
                     </a>
                 </div>
             </form>
-            <?php
-
-                include('conexion-bd.php');
-
-            ?>
             <p class="login__texto"><b>Crea una página</b> para una celebridad, una marca o un negocio.</p>
         </div>
     </div>
+    <script src="mainscript.js"></script>
 </body>
 </html>
